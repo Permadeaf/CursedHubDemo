@@ -38,7 +38,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dark" ID="{725F8E49-AD31-4506-BCD8-10F73DF23972}"/>
+						<CurrentSwitchRef Name="Light" ID="{41DC79A9-378C-477A-A0FF-16EAE9501A67}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

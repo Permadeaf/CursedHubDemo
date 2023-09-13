@@ -26,6 +26,16 @@
 				</Event>
 				<Event Name="PlayMusicSwitchContainer" ID="{33D1B991-E224-4BCC-9513-38991BAC745A}">
 					<ChildrenList>
+						<Action Name="" ID="{87255D3F-09AA-49F5-AF23-4C6EB25BA82B}" ShortID="491543123">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light" ID="{41DC79A9-378C-477A-A0FF-16EAE9501A67}" WorkUnitID="{F82AA509-8C7C-4D37-99D7-052B94B1F98D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{97638BBF-A06F-46F0-96D1-6F4E25168B67}" ShortID="63192878">
 							<ReferenceList>
 								<Reference Name="Target">
