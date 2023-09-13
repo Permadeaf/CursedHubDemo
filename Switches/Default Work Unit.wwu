@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F82AA509-8C7C-4D37-99D7-052B94B1F98D}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{F82AA509-8C7C-4D37-99D7-052B94B1F98D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="HubSwitch" ID="{615632C2-C3E6-423C-963C-A0CEBD68FB88}">
+					<ChildrenList>
+						<Switch Name="Dark" ID="{725F8E49-AD31-4506-BCD8-10F73DF23972}"/>
+						<Switch Name="Light" ID="{41DC79A9-378C-477A-A0FF-16EAE9501A67}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

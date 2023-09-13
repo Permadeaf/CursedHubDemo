@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CD190D2-B8E9-433D-9A35-B3B3D81144D5}" SchemaVersion="110">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{0CD190D2-B8E9-433D-9A35-B3B3D81144D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="SwitchColor" ID="{3005FE65-4B96-43BB-9435-51DB5243D298}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A8490DD-CC57-467B-9F75-62F0BAA50884}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="RTPCVersion" ID="{0A8490DD-CC57-467B-9F75-62F0BAA50884}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="HubMusic" ID="{A91DE5B7-74B9-4E5E-AE19-706169743677}" ShortID="869409533">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="100"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CAA3667-B955-4C62-9DBD-ABBBDCFC3B83}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84968811-3BBC-4223-9E9D-8DB6A82F3F65}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Hub" ID="{0D08B487-B1F2-4F7C-89CD-0E585F93ED9E}" ShortID="210733522">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="123400"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8CAA3667-B955-4C62-9DBD-ABBBDCFC3B83}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84968811-3BBC-4223-9E9D-8DB6A82F3F65}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Cursed HubLight100bpm46M" ID="{E89E220A-0F08-4B08-95C3-9EA4493D9E3E}" ShortID="273781968">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84968811-3BBC-4223-9E9D-8DB6A82F3F65}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cursed HubLight100bpm46M" ID="{FEB4FA4F-F821-4FD3-A896-078EB4FC0E4D}">
+											<Language>SFX</Language>
+											<AudioFile>Cursed HubLight100bpm46M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547475977"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{913C8240-63BC-4CCE-AAB0-88B722D7C194}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D7FF9512-FED6-4C48-BB3D-73A1D2EF4E3C}" ShortID="1041143592">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}" WorkUnitID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{16E9E320-8C6D-46DF-A5EC-643893DCBA87}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1D6643C0-328A-4D40-A727-A25F65D12DDC}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Cursed HubLight100bpm46M" ID="{3201D85F-E825-47B5-AC86-767F39EBC132}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="115200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Cursed HubLight100bpm46M" ID="{FEB4FA4F-F821-4FD3-A896-078EB4FC0E4D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Cursed HubRedux100bpm46M" ID="{D5816807-A016-421B-971A-7DF957C1A99F}" ShortID="831617434">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{84968811-3BBC-4223-9E9D-8DB6A82F3F65}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cursed HubRedux100bpm46M" ID="{3A2BF5D0-D9E9-4644-A3AD-F093BA478D1A}">
+											<Language>SFX</Language>
+											<AudioFile>Cursed HubRedux100bpm46M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922746038"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{780763F9-EF3E-41EB-8D31-C6C3A08FD4E2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D899E8F6-AA03-4C2C-8B94-708586174981}" ShortID="143650547">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}" WorkUnitID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{DD094924-9B2B-4097-9DE0-4997058A7CEB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1B61A307-7209-44E7-AD53-D3B3D29C84B6}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Cursed HubRedux100bpm46M" ID="{3CF723A6-1305-4B07-BD21-C8DE16CD7216}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="116400"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Cursed HubRedux100bpm46M" ID="{3A2BF5D0-D9E9-4644-A3AD-F093BA478D1A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B595DBF0-3D99-46D2-8D13-F8E59453B06A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{DDC984E5-2C67-420E-BACB-E1B0B0E5A589}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="105600"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{F3FC9FB9-4C00-410A-BA8E-9C63B9C4F4C7}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{4DC39E17-06BF-46C7-86E0-A44326E9F02C}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{13DCC4C5-9F11-4DE8-ACFC-68E8889047E7}" ShortID="881013385">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{37604AB0-9E2E-4B00-BAFA-8B01BBDA56A2}" ShortID="251042460">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Hub" ID="{0D08B487-B1F2-4F7C-89CD-0E585F93ED9E}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

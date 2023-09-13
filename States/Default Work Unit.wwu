@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09F178D7-AF15-4DC9-91D3-163F2D96FA21}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{09F178D7-AF15-4DC9-91D3-163F2D96FA21}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="HubColor" ID="{5F408E2D-7C9A-4F3C-BA34-0924218869D8}">
+					<ChildrenList>
+						<State Name="None" ID="{EFE09419-F999-4BB1-AE71-B27817C49FF3}"/>
+						<State Name="Light" ID="{DA6F1529-BA90-48C1-BE2B-88DF8C5B365A}"/>
+						<State Name="Dark" ID="{2C8D9295-0523-4EB9-AA33-01F1589B81D4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

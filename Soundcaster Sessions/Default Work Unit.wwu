@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86EA4D86-8A91-4C67-8285-055947BE3C50}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{86EA4D86-8A91-4C67-8285-055947BE3C50}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Switch Method" ID="{0E60E125-3A8B-4FAF-8BE0-5CA1EB43502D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayMusicSwitchContainer" ID="{33D1B991-E224-4BCC-9513-38991BAC745A}" WorkUnitID="{853BCF4F-66DC-437F-9D68-1A80FD09D270}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayMusicRTPC" ID="{8074F9E5-F639-4C66-AA9B-E7929D0A1DC2}" WorkUnitID="{62738E44-9120-45CE-BDEF-693CE0EFD87F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChangeColorLight" ID="{70733643-4983-434B-A380-059B12F111A0}" WorkUnitID="{853BCF4F-66DC-437F-9D68-1A80FD09D270}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChangeColorLightRTPC" ID="{0D1D88FD-1997-46C8-8DA9-37DEEF2C70DD}" WorkUnitID="{62738E44-9120-45CE-BDEF-693CE0EFD87F}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChangeColorDark" ID="{6E698FE9-DFDB-4A20-835B-4863EBA1CFD8}" WorkUnitID="{853BCF4F-66DC-437F-9D68-1A80FD09D270}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ChangeColorDarkRTPC" ID="{CB7DC498-6E57-4602-B619-E74D57667B2F}" WorkUnitID="{62738E44-9120-45CE-BDEF-693CE0EFD87F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dark" ID="{725F8E49-AD31-4506-BCD8-10F73DF23972}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

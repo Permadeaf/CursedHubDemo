@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{853BCF4F-66DC-437F-9D68-1A80FD09D270}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{853BCF4F-66DC-437F-9D68-1A80FD09D270}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ChangeColorDark" ID="{6E698FE9-DFDB-4A20-835B-4863EBA1CFD8}">
+					<ChildrenList>
+						<Action Name="" ID="{4CF80CF0-8E5B-473D-9AB4-BB81C82E4629}" ShortID="1049533642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CymbalSwell" ID="{DCC78375-833A-4EBF-A5EF-A3611D56A5CC}" WorkUnitID="{FC87CD4A-B893-4CC0-B968-C572B70EC730}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{22D861B3-5FAD-4F26-8E4C-37F10B5A48C5}" ShortID="999483634">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dark" ID="{725F8E49-AD31-4506-BCD8-10F73DF23972}" WorkUnitID="{F82AA509-8C7C-4D37-99D7-052B94B1F98D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusicSwitchContainer" ID="{33D1B991-E224-4BCC-9513-38991BAC745A}">
+					<ChildrenList>
+						<Action Name="" ID="{97638BBF-A06F-46F0-96D1-6F4E25168B67}" ShortID="63192878">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hub Switch Container" ID="{94DCC48E-2C6F-4D4F-9DD4-6325EF93F862}" WorkUnitID="{5C4188A5-D693-42D8-9E68-17221FCDB380}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChangeColorLight" ID="{70733643-4983-434B-A380-059B12F111A0}">
+					<ChildrenList>
+						<Action Name="" ID="{80F872EC-7B7B-45C5-9ADC-8ADF7451874C}" ShortID="829048916">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light" ID="{41DC79A9-378C-477A-A0FF-16EAE9501A67}" WorkUnitID="{F82AA509-8C7C-4D37-99D7-052B94B1F98D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{810DB44C-D8D8-465F-AEC9-77626209E2EE}" ShortID="826110497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CSwellLong" ID="{26A19A76-15F6-4CF1-84B7-0BA786AB4F82}" WorkUnitID="{5C4188A5-D693-42D8-9E68-17221FCDB380}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

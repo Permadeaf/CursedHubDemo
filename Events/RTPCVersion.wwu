@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62738E44-9120-45CE-BDEF-693CE0EFD87F}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="RTPCVersion" ID="{62738E44-9120-45CE-BDEF-693CE0EFD87F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayMusicRTPC" ID="{8074F9E5-F639-4C66-AA9B-E7929D0A1DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{B59ADEBF-8F95-4294-8121-F050272D7AF9}" ShortID="741587893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}" WorkUnitID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CA13B465-0C62-4184-B24C-811354DD72E3}" ShortID="177064126">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HubMusic" ID="{A91DE5B7-74B9-4E5E-AE19-706169743677}" WorkUnitID="{0A8490DD-CC57-467B-9F75-62F0BAA50884}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChangeColorDarkRTPC" ID="{CB7DC498-6E57-4602-B619-E74D57667B2F}">
+					<ChildrenList>
+						<Action Name="" ID="{3563C317-EC64-4F59-BCA7-FE00BB283077}" ShortID="796859477">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}" WorkUnitID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC32972D-529E-48F7-9683-8C85CC7EF8C1}" ShortID="573824538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cswell" ID="{4C3B112B-BE18-4C0B-BB02-C93380E83972}" WorkUnitID="{5C4188A5-D693-42D8-9E68-17221FCDB380}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChangeColorLightRTPC" ID="{0D1D88FD-1997-46C8-8DA9-37DEEF2C70DD}">
+					<ChildrenList>
+						<Action Name="" ID="{027DADB3-1186-40BD-B171-7D398B1E8280}" ShortID="476503761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}" WorkUnitID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AFEECC3A-D024-4FEC-B281-421763CB3DBF}" ShortID="725758997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CSwellLong" ID="{26A19A76-15F6-4CF1-84B7-0BA786AB4F82}" WorkUnitID="{5C4188A5-D693-42D8-9E68-17221FCDB380}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

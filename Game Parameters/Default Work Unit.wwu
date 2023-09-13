@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{2C0A26B5-5FAD-4B6D-8106-F429309B48B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ColorState" ID="{8CD1D85A-CFE4-4660-9268-21133EFCA330}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="90"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
